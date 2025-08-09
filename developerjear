@@ -1,0 +1,67 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Developer Jear</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin:0; background:#f0f8ff; color:#333; }
+        header { background:#4da6ff; color:white; padding:20px; text-align:center; }
+        nav a { color:white; margin:0 15px; text-decoration:none; font-weight:bold; }
+        section { padding:20px; max-width:900px; margin:auto; background:white; margin-top:20px; border-radius:8px; box-shadow: 0 0 10px rgba(0,0,0,0.1);}
+        footer { background:#4da6ff; color:white; text-align:center; padding:10px; margin-top:20px; }
+        h1,h2 { color:#4da6ff; }
+        form input, form textarea { width:100%; padding:8px; margin:5px 0; border:1px solid #ccc; border-radius:5px; }
+        form button { background:#4da6ff; color:white; border:none; padding:10px 15px; cursor:pointer; border-radius:5px; }
+        form button:hover { background:#3399ff; }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Developer Jear</h1>
+    <nav>
+        <a href="#about">แนะนำตัว</a>
+        <a href="#services">บริการทำบัญชี</a>
+        <a href="#blog">บทความ</a>
+        <a href="#contact">ติดต่อ</a>
+    </nav>
+</header>
+
+<section id="about">
+    <h2>แนะนำตัว</h2>
+    <p>สวัสดีครับ ผม Somsak SaeJear ให้บริการทำบัญชี และสนใจเทคโนโลยี IT พร้อมแบ่งปันความรู้ให้กับทุกคน</p>
+</section>
+
+<section id="services">
+    <h2>บริการทำบัญชี</h2>
+    <ul>
+        <li>รับทำบัญชีรายเดือน/รายปี</li>
+        <li>จัดทำงบการเงิน</li>
+        <li>ยื่นภาษีบุคคลและนิติบุคคล</li>
+    </ul>
+</section>
+
+<section id="blog">
+    <h2>บทความและความรู้</h2>
+    <p>จะแชร์ความรู้ด้าน IT และอัปเดตข่าวสารด้านบัญชีและภาษีที่นี่</p>
+</section>
+
+<section id="contact">
+    <h2>ติดต่อ</h2>
+    <form action="https://formspree.io/f/your-form-id" method="POST">
+        <input type="text" name="name" placeholder="ชื่อของคุณ" required>
+        <input type="email" name="email" placeholder="อีเมลของคุณ" required>
+        <textarea name="message" placeholder="ข้อความ" rows="5" required></textarea>
+        <button type="submit">ส่งข้อความ</button>
+    </form>
+    <p>หรือส่งอีเมลได้ที่ <a href="mailto:somsak.jear@gmail.com">somsak.jear@gmail.com</a></p>
+</section>
+
+<footer>
+    <p>© 2025 Developer Jear</p>
+</footer>
+
+</body>
+</html>
